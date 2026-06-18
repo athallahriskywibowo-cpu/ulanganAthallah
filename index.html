@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toko Athallah</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+<!-- ucapan selamat pada saat buka website -->
+<div class="welcome" id="welcome">
+<div class="welcome-box">
+<p>Selamat datang di website kami</p>
+
+<button id="btnOK">
+OK
+</button>
+</div>
+</div>
+
+
+<!-- HEADER -->
+<header>
+<div class="top">
+<ul>
+<li><i class="fa fa-facebook"></i></li>
+<li><i class="fa fa-instagram"></i></li>
+<li><i class="fa fa-twitter"></i></li>
+</ul>
+</div>
+
+
+<div class="navbar">
+<div class="logo">
+<img src="images/logo.jpg">
+</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Product</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#" onclick="openRegister()">Sign Up</a></li>
+</ul>
+
+
+<button onclick="openLogin()">
+Sign In
+</button>
+</div>
+</header>
+
+
+<!-- gambar yang bisa di geer -->
+<section class="banner"></section>
+<img src="images/banner2.jpg">
+<div class="text">
+
+<h1>
+Our
+<br>
+<span>
+Latest Product
+</span>
+</h1>
+<p>
+Technology service terbaik untuk anda
+</p>
+
+<a href="#">
+See More
+</a>
+</div>
+</section>
+
+
+<!-- servise -->
+<section>
+<div class="title">
+<h2>
+Why Choose Us
+</h2>
+</div>
+
+<div class="container">
+<div class="box">
+<img src="icon/1.png">
+
+<h3>
+Data Recovery
+</h3>
+
+<p>
+Pemulihan data aman
+</p>
+</div>
+
+<div class="box">
+<img src="icon/2.png">
+
+<h3>
+Computer Repair
+</h3>
+
+<p>
+Perbaikan komputer
+</p>
+</div>
+
+
+<div class="box">
+<img src="icon/3.png">
+
+<h3>
+Mobile Service
+</h3>
+
+<p>
+Layanan handphone
+</p>
+</div>
+</div>
+</section>
+
+
+<!-- product -->
+<section class="product">
+
+<h2>
+Our Product
+</h2>
+<div class="container">
+<div class="box">
+<img src="icon/p1.png">
+
+<h3>
+Internet Security
+</h3>
+
+<p>
+$25
+</p>
+</div>
+
+
+<div class="box">
+<img src="icon/p2.png">
+
+<h3>
+Software
+</h3>
+
+<p>
+$30
+</p>
+</div>
+</div>
+</section>
+
+
+<!-- footer -->
+<footer>
+
+<h3>
+Contact Us
+</h3>
+
+<p>
+Website pelayanan teknologi
+</p>
+</footer>
+
+
+
+
+
+
+<!-- login -->
+
+<div class="modal" id="login">
+<div class="form">
+
+<h2>
+Sign In
+</h2>
+
+<input placeholder="Username">
+<input placeholder="Password" type="password">
+
+<button>
+Login
+</button>
+
+
+<p onclick="openRegister()">
+Sign Up
+</p>
+</div>
+</div>
+
+
+
+<!-- register -->
+
+<div class="modal" id="register">
+<div class="form">
+
+<h2>
+Sign Up
+</h2>
+
+<input placeholder="Nama">
+<input placeholder="Email">
+<input placeholder="Password" type="password">
+
+<button>
+Daftar
+</button>
+
+
+
+<p onclick="openLogin()">
+Sign In
+</p>
+</div>
+</div>
+
+
+<script src="js/style.js"></script>
+</body>
+</html>
